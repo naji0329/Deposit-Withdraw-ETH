@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Lato:wght@300;400&display=swap');
+/* Global Styles */
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(rgba(0,0,0,0), #35284d 100%), #130034 !important;
+  color: rgb(255,255,255);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* @font-face {
+  font-family: "Comic Neue";
+  src: url("./assets/font/ComicNeue-Regular.ttf") format("ttf"),
+} */
+
+.portofolio_img:hover {
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.portofolio_connect_btn:hover {
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.nav-item {
+  font-family: 'Comic Neue', cursive;
+font-family: 'Lato', sans-serif;
+font-weight: bold;
+}
+
+#basic-navbar-nav {
+  background: linear-gradient(120deg, #8272ff, #0098ff);
+}
+
+.navbar {
+  .mint_btn {
+    border-radius: 5px;
+    background: #ef6960;
+    font-family: 'Comic Neue', serif;
+    font-weight: bold;
+  }
+}
+
+
+.mint-control {
+  .mint-counter-plus {
+    background: transparent;
+    color: white;
+  }
+  .mint-counter-plus:hover {
+    background: #0098ff;
+  }
+  .mint-counter-minus {
+    background: transparent;
+    color: white;
+  }
+  .mint-counter-minus:hover {
+    background: #0098ff;
+  }
+  .mint-counter-input {
+    background: transparent;
+    color: white;
+  }
+  .mint-counter-input:hover {
+    background: #0098ff;
+  }
+  p {
+    font-size: 22px;
+    margin: 0px;
+  }
+  .minted-number {
+    span {
+      color: #0098ff !important;
+    }
+  }
+  a {
+    color: white !important;
+  }
+  .btn-counter-group {
+    button {
+      background: transparent;
+    }
+    button:hover {
+      background: #0098ff;
+    }
+  }
+  .mint-button {
+    button {
+      background: transparent;
+    }
+    button:hover {
+      background: #0098ff;
+    }
+  }
+}

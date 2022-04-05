@@ -1,0 +1,6 @@
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/frontend/node_modules

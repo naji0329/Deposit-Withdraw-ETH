@@ -1,0 +1,14 @@
+.gradient {
+  background: linear-gradient(120deg, #8272ff, #0098ff);
+  color: #ff0000;
+}
+
+.page-footer {
+  padding-top: 35px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.nav-link:hover {
+  color: #bdbdbd !important;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "NFT Name: Space Koalas\r Symbol: SPAKOA (or SPKO)\r Initial Price: 0,04 ETH (100$)\r Total Supply: 10.000\r Whitelist: 1.000\r Mint per Wallet: 5\r Reveal after 1 Week\r Royalty: 5% (edited)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.2.4",
+    "@nomiclabs/hardhat-etherscan": "^3.0.1",
+    "@openzeppelin/contracts": "^4.5.0",
+    "react-toastify": "^8.2.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
